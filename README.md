@@ -2,7 +2,7 @@
 
 Data Engineer with experience across AI SaaS, retail banking, and cloud-native infrastructure. This repo is a collection of projects I've built outside of work to explore new tools and techniques.
 
-## [Full CV →](CV.md) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/zackwilliams)
+## [Full CV](CV.md) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/zack-r-williams/)
 
 ## Projects
 

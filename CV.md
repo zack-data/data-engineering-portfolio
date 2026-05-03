@@ -1,6 +1,6 @@
 # Zack Williams
 
- 🔗 [LinkedIn](https://www.linkedin.com/in/zackwilliams)
+🔗 [LinkedIn](https://www.linkedin.com/in/zack-r-williams/)
 
 ---
 
