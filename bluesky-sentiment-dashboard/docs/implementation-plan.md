@@ -50,7 +50,7 @@ bluesky-sentiment-dashboard/
 
 ---
 
-## Phase 0 — Project Scaffolding (~15 min)
+## Phase 0 — Project Scaffolding
 
 **Goal:** Empty but runnable structure. No business logic yet.
 
@@ -131,7 +131,7 @@ cp .env.example .env  # tweak if needed; defaults work as-is
 
 ---
 
-## Phase 1 — Shared Modules (~20 min)
+## Phase 1 — Shared Modules
 
 ### `src/config.py`
 
@@ -221,7 +221,7 @@ kafka-topics --delete --topic reddit-raw-posts --bootstrap-server localhost:9092
 
 ---
 
-## Phase 2 — Bluesky Producer (~30 min)
+## Phase 2 — Bluesky Producer
 
 **Goal:** Stream Jetstream commits, filter to English posts mentioning a brand keyword, write to `bluesky-raw-posts`.
 
@@ -371,7 +371,7 @@ You should see JSON posts mentioning your brand keyword. Bluesky's volume is low
 
 ---
 
-## Phase 3 — Sentiment Enricher (~30 min)
+## Phase 3 — Sentiment Enricher
 
 **Goal:** Read from `bluesky-raw-posts`, run VADER, write to `sentiment-enriched`.
 
@@ -456,7 +456,7 @@ You should see the same posts with sentiment fields appended.
 
 ---
 
-## Phase 4 — DuckDB Sink (~20 min)
+## Phase 4 — DuckDB Sink
 
 **Goal:** Read `sentiment-enriched`, persist to DuckDB.
 
@@ -553,7 +553,7 @@ duckdb data/sentiment.duckdb -c "SELECT COUNT(*), MIN(created_at), MAX(created_a
 
 ---
 
-## Phase 5 — Streamlit Dashboard (~60 min)
+## Phase 5 — Streamlit Dashboard
 
 **Goal:** Apple-styled dashboard reading from DuckDB.
 
@@ -760,7 +760,7 @@ Try shutting down the dashboard and sink for a few minutes — when they restart
 
 ---
 
-## Phase 7 — Containerisation (~30 min)
+## Phase 7 — Containerisation
 
 **Goal:** Package the whole stack — Kafka broker, producer, enricher, sink, dashboard — into a single Docker image runnable from Docker Desktop. No host-side Java, Homebrew Kafka, or Python venv required after this phase.
 
@@ -887,19 +887,3 @@ Before declaring done:
 - **VADER misses sarcasm and AI/SaaS slang.** Upgrade to `cardiffnlp/twitter-roberta-base-sentiment-latest` is a 5-line change in `sentiment_enricher.py`.
 - **No backfill** — only forward-streaming posts are captured. For historical mentions on cold-start, add a one-shot script using `atproto`'s `app.bsky.feed.searchPosts`.
 - **Single broker, single replica** — fine for local; would not survive a node failure.
-
----
-
-## Estimated Total Time
-
-| Phase                    | Time         |
-| ------------------------ | ------------ |
-| 0 — Scaffolding          | 15 min       |
-| 1 — Shared modules       | 20 min       |
-| 2 — Bluesky producer     | 30 min       |
-| 3 — Sentiment enricher   | 30 min       |
-| 4 — DuckDB sink          | 20 min       |
-| 5 — Dashboard            | 60 min       |
-| 6 — Integration & polish | 30 min       |
-| 7 — Containerisation     | 30 min       |
-| **Total**                | **~4 hours** |

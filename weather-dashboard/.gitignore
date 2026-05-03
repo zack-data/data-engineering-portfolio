@@ -1,7 +1,10 @@
+.env
 data/
+airflow/
 __pycache__/
 *.pyc
 .venv/
 .env/
 .env
+.pytest_cache/
 .streamlit/secrets.toml
