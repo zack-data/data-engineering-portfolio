@@ -1,6 +1,6 @@
 # Zack Williams
 
-📧 [williamszack76@gmail.com](mailto:williamszack76@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/zackwilliams)
+ 🔗 [LinkedIn](https://www.linkedin.com/in/zackwilliams)
 
 ---
 
