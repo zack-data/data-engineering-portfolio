@@ -1,0 +1,17 @@
+services:
+  bluesky-sentiment:
+    build: .
+    image: bluesky-sentiment:latest
+    container_name: bluesky-sentiment
+    ports:
+      - "8501:8501"
+    environment:
+      BRAND_KEYWORDS: ${BRAND_KEYWORDS:-apple}
+      LANG_FILTER: ${LANG_FILTER:-en}
+    volumes:
+      - ./data:/app/data
+      - kafka-data:/var/lib/kafka
+    restart: unless-stopped
+
+volumes:
+  kafka-data:
