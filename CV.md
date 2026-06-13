@@ -22,7 +22,7 @@
 - Reduced ETL pipeline runtime by **90%** by migrating on-prem workloads to GCP with Test Driven Development, delivering a reliable, maintainable data infrastructure at scale.
 - Surfaced historical write-off data for Lloyds' Loss Given Default model, enabling the bank to reduce regulatory capital held by **millions** — high-stakes analytical work with direct financial and regulatory consequence.
 - Led a team of 5 Data Engineers to deliver Lloyds Banking Group's first BigQuery data product, establishing cloud data architecture standards adopted across the department.
-- Owned all data infrastructure as Fyxer's sole data engineer, building end-to-end ETL pipelines and dbt models across Finance and GTM that supported a **multi-million dollar VC fundraise**.
+- Owned all data infrastructure as Fyxer's lead data engineer, building end-to-end ETL pipelines and dbt models across Finance and GTM that supported a **multi-million dollar VC fundraise**.
 - Restored stakeholder trust in financial reporting by refactoring Stripe dbt models to correct gross/net ARR logic, establishing data quality as a first-class concern across the warehouse.
 
 ---
@@ -43,10 +43,11 @@ _AI-powered productivity SaaS &nbsp;·&nbsp; B2C · B2B · Artificial Intelligen
 ![Hubspot](https://img.shields.io/badge/HubSpot-FF7A59?style=flat&logo=hubspot&logoColor=white)
 ![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=flat&logo=metabase&logoColor=white)
 
-- Owned data engineering across Finance and GTM as the sole data engineer, partnering with stakeholders to define requirements and ship reporting solutions end-to-end.
+- Own data engineering across the business, partnering with stakeholders to define requirements and ship reporting solutions end-to-end.
 - Developed a daily analytics ETL pipeline for cohort-based reporting on customer, subscription, and marketing spend data, supporting a successful multi-million dollar VC fundraise.
 - Baked sales commission logic into the data warehouse, enabling the team to exceed Q4-2025 sales quotas through reliable revenue reporting.
 - Refactored Stripe reporting dbt models to correct gross / net ARR calculation logic, improving accuracy and credibility of financial metrics.
+- Built a Python rule engine application that optimises non-brand Google Ads spend, lifting impression share by 3 percentage points in the first week.
 
 ---
 
