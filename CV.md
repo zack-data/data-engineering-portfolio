@@ -1,8 +1,4 @@
-# Zack Williams
-
-🔗 [LinkedIn](https://www.linkedin.com/in/zack-r-williams/)
-
----
+# [Zack Williams 👋](https://www.linkedin.com/in/zack-r-williams/)
 
 ## At a Glance
 
