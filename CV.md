@@ -27,7 +27,7 @@
 
 ### Data Engineer — [Fyxer](https://fyxer.com)
 
-`Aug 2025 – Present` &nbsp;·&nbsp; _1 year_
+`Aug 2025 – Present` &nbsp;·&nbsp; _1 year 1 month_
 
 _AI-powered productivity SaaS &nbsp;·&nbsp; B2C · B2B · Artificial Intelligence_
 
