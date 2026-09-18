@@ -4,7 +4,7 @@
 
 |                  |                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------- |
-| **Current role** | Data Engineer at Fyxer                                                                |
+| **Current role** | Senior Data Engineer at Fyxer                                                         |
 | **Experience**   | B2C, B2B, Artificial Intelligence, SaaS                                               |
 | **Technologies** | GCP · Python · Hubspot · Metabase · BigQuery · Git · dbt · SQL · Terraform · Power BI |
 
@@ -25,7 +25,7 @@
 
 ## Work Experience
 
-### Data Engineer — [Fyxer](https://fyxer.com)
+### Senior Data Engineer — [Fyxer](https://fyxer.com)
 
 `Aug 2025 – Present` &nbsp;·&nbsp; _1 year 1 month_
 
