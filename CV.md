@@ -19,7 +19,7 @@
 - Surfaced historical write-off data for Lloyds' Loss Given Default model, enabling the bank to reduce regulatory capital held by **millions** — high-stakes analytical work with direct financial and regulatory consequence.
 - Led a team of 5 Data Engineers to deliver Lloyds Banking Group's first BigQuery data product, establishing cloud data architecture standards adopted across the department.
 - Owned all data infrastructure as Fyxer's lead data engineer, building end-to-end ETL pipelines and dbt models across Finance and GTM that supported a **multi-million dollar VC fundraise**.
-- Restored stakeholder trust in financial reporting by refactoring Stripe dbt models to correct gross/net ARR logic, establishing data quality as a first-class concern across the warehouse.
+- Built a Python rule engine application that optimises non-brand Google Ads spend, lifting impression share by 3 percentage points in the first week.
 
 ---
 
